@@ -1,0 +1,144 @@
+/* 모바일 버전 */
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box !important;
+}
+
+#board_customer {
+   height: 90vh;
+   width: 80%;
+   margin: 0 auto;
+   padding: 30px 0;
+}
+
+h2 {
+   text-align: center;
+   font-size: 30px !important;
+   margin: 20px 0 40px !important;
+   padding: 15px 0;
+}
+
+#table {
+   margin-bottom: 25px !important;
+}
+
+th, td {
+   text-align: center !important;
+   font-size: 12px;
+}
+
+td a {
+   color: black;
+   text-decoration: none;
+}
+
+td a:hover {
+   color: black;
+   text-decoration: none;
+}
+
+th {
+   background-color: #6ECCAF !important;
+   color: white !important;
+   border-color: #3fb491 !important;
+}
+
+#col_first {
+   width: 15%;
+}
+
+#col_third {
+   width: 17%;
+}
+
+#col_fourth {
+   width: 17%;
+}
+
+#col_last {
+   width: 15%;
+}
+
+.pagination {
+   display: block !important;
+   text-align: center !important;
+   margin-top: 10px;
+}
+
+.page-item {
+   display: inline-block !important;
+}
+
+.page-link {
+   background-color: white !important;
+   color: black !important;
+   border-color: black !important;
+}
+
+.page-link:hover {
+   color: white !important;
+   background-color: #344D67 !important;
+}
+
+#search_box {
+   width: 170px !important;
+   margin-bottom: 10px !important;
+   float: right;
+}
+
+.input-group-text img {
+   width: 20px;
+   height: 20px;
+}
+
+#submit_board {
+   float: right;
+   width: 80px;
+   height: 30px;
+   font-size: 12px;
+   line-height: 90%;
+}
+
+#submit_board:hover {
+   color: white !important;
+   background-color: #344D67 !important;
+}
+
+/* 태블릿 */
+@media all and (min-width:768px) {
+   #search_box {
+      width: 200px !important;
+   }
+   #submit_board {
+      width: 100px;
+      height: 40px;
+      font-size: 14px;
+      line-height: 90%;
+      float: right;
+   }
+   th, td {
+      font-size: 14px;
+   }
+}
+
+@media all and (min-width:1024px) {
+   #col_first {
+      width: 80px;
+   }
+   #col_third {
+      width: 150px;
+   }
+   #col_fourth {
+      width: 80px;
+   }
+   #col_last {
+      width: 80px;
+   }
+   #board_customer {
+      width: 60%;
+   }
+   th, td {
+      font-size: 16px;
+   }
+}

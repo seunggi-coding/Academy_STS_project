@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* 모바일 버전 */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box !important;
+}
+#board_detail_container {
+	width: 80%;
+	padding-top: 30px;
+	margin: 0 auto 50px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px !important;
+	margin: 20px 0 100px !important;
+	padding: 15px 0;
+}
+
+h3 {
+	font-size: 20px !important;
+	margin-bottom: 0 !important;
+}
+
+#content_head {
+	border-bottom: 2px solid #3fb491!important;
+	margin-bottom: 30px;
+	padding: 0px 10px 10px;
+}
+
+#content_head div {
+	padding: 15px 0 10px;
+	font-size: 14px !important;
+}
+
+#content_detail {
+	padding: 30px 20px;
+	border-bottom: 2px solid #3fb491!important;
+	margin-bottom: 20px;
+}
+#detail_buttons {
+	float: right;
+	margin-bottom: 50px;
+}
+.btn {
+	color: black !important;
+	background-color: white !important;
+	border-color: black !important;
+} 
+.btn:hover {
+	color: white !important;
+	background-color: #344D67 !important;
+	border-color: #344D67 !important;
+}
+#reply {
+	margin-bottom: 50px;
+	margin-top: 200px;
+}
+#reply_div {
+	margin-bottom: 50px;
+}
+#reply_input_box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+#reply_div h5 {
+	float: left;
+}
+#reply_input_box2 {
+	display: flex;
+	width: 100%;
+	height: 100px;
+	margin-bottom: 20px;
+}
+#reply_content {
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #344D67;
+}
+#reply_content:focus {
+	border: 3px solid #344D67 !important;
+	box-shadow: none;
+	outline: 0;
+}
+#reply_btn {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 50px;
+}
+#btn-reply-save {
+	width: 20%;
+	height: 40px;
+	float: right;
+	background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.table_reply {
+	border-top: 1px solid #46688a !important;
+	width: 100%;
+}
+.table_reply tr {
+	border-top: none !important;
+	border-bottom: none !important;
+}
+.table_reply:last-child {
+	border-bottom: 1px solid #46688a !important;
+}
+.table_reply tr td {
+	padding: 12px 10px;	
+}
+.second_col {
+	font-size: 14px !important;
+	color: gray;
+}
+
+
+/* 태블릿 부터 PC */
+@media all and (min-width:768px) {
+	h2 {
+		text-align: center;
+		font-size: 30px !important;
+		margin: 20px 0 100px !important;
+		padding: 15px 0;
+	}
+	#btn-reply-save {
+		width: 20%;
+	}
+}
+
+@media all and (min-width:1024px) {
+	#board_detail_container {
+		width: 60%;
+		margin: 0 auto;
+	}
+	#btn-reply-save {
+		width: 15%;
+	}
+}

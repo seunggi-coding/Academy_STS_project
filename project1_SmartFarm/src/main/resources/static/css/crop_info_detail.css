@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box !important;
+}
+
+#crop_info_container {
+	width: 100%;
+	margin: 0 auto !important;
+}
+
+#crop_info_head {
+	width: 80%;
+	border-bottom: 2px solid #3fb491 !important;
+	margin: 50px auto;
+}
+
+#crop_info_head h2 {
+	text-align: center;
+	font-size: 24px !important;
+	padding: 10px 0;
+}
+
+#card_box {
+	width: 80%;
+	margin: 50px auto;
+}
+
+#card_box_inner {
+	margin-top: 20px;
+}
+
+.card {
+	width: 70%;
+	margin: 50px auto 70px;
+}
+
+#slide_text {
+	width: 100% !important;
+}
+
+.buttons button {
+	width: 100% !important;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold !important;
+	background-color: #5882ab !important;
+	border: 1px solid #5882ab !important;
+	color: white !important;
+}
+
+.buttons button:hover {
+	border: 1px solid #344D67 !important;
+	background-color: #344D67 !important;
+	color: white !important;
+}
+
+.buttons div {
+	padding: 10px 15px 5px;
+	background-color: #F3ECB0;
+	margin-bottom: 10px;
+}
+
+.buttons ul {
+	list-style: none;
+	text-decoration: none;
+	padding-left: 0;
+}
+
+.buttons ul li {
+	font-size: 12px;
+}
+
+.buttons ul li:before {
+	content: "\f00c";
+	padding-right: 10px;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+@media all and (min-width:768px) {
+	#card_box_inner {
+		display: inline-block;
+		margin: 0 auto;
+	}
+	#card_box {
+		margin-top: 120px;
+	}
+	.card {
+		float: left;
+		width: 40%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.card h4 {
+		font-size: 20px !important;
+	}
+	#slide_text {
+		float: left;
+		padding-top: 40px;
+		width: 40% !important;
+	}
+	.buttons ul li {
+		font-size: 14px;
+	}
+	footer {
+		margin-top: 100px;
+	}
+	#crop_info_head h2 {
+		font-size: 26px !important;
+	}
+	.buttons ul li {
+		font-size: 16px;
+	}
+}
+
+@media all and (min-width:1024px) {
+	#card_box_inner {
+		display: inline-block;
+		margin: 0 auto;
+	}
+	.card {
+		float: left;
+		width: 30%;
+		margin-left: 10%;
+		margin-right: 15%;
+	}
+	#slide_text {
+		float: left;
+		padding-top: 40px;
+		width: 33% !important;
+	}
+	.buttons ul li {
+		font-size: 16px;
+	}
+	.card h4 {
+		font-size: 24px !important;
+	}
+	#crop_info_head h2 {
+		font-size: 28px !important;
+	}
+	.buttons ul li {
+		font-size: 18px;
+	}
+}
